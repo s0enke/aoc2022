@@ -10,4 +10,6 @@ for j, i in enumerate(data.split("\n\n")):
 
 # get size of values
 
-print(max(values))
+values.sort()
+
+print(sum(values[-3:]))
